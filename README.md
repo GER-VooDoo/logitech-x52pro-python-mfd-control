@@ -7,19 +7,21 @@ A easy-to-use python package to utilize the MFD on the Throttle of the Logitech 
 Currently you have to modify the main.py file to edit the entries, JSON file support is in progress
 
 ```python
-    self.entries['Page 1'] = [
-        #----------------# display width #
-        "-- 1 -----------",
-        "Line 1",
-        "Line 2",
-        "Line 3",
-        "-- 2 -----------",
-        "Line 1",
-        "-- 3 -----------",
-        "Line 1",
-        #----------------# display width #
-    ]
+self.entries['Page 1'] = [
+    #----------------# display width #
+    "-- 1 -----------",
+    "Line 1",
+    "Line 2",
+    "Line 3",
+    "-- 2 -----------",
+    "Line 1",
+    "-- 3 -----------",
+    "Line 1",
+    #----------------# display width #
+]
 ```
+
+afterwards execute the `run.bat` file
 
 ## Changes:
 
