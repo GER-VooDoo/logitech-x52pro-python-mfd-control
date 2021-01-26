@@ -1,4 +1,4 @@
-# logitech-x52pro-python-wrapper
+# logitech-x52pro-python-mfd-control
 
 A easy-to-use python package to utilize the MFD on the Throttle of the Logitech X52 Pro, based on an older Saitek version of [headprogrammingczar](https://github.com/headprogrammingczar): [headprogrammingczar/mahon-mfd](https://github.com/headprogrammingczar/mahon-mfd)
 
