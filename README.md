@@ -1,6 +1,6 @@
 # logitech-x52pro-python-mfd-control
 
-A easy-to-use python package to utilize the MFD on the Throttle of the Logitech X52 Pro, based on an older Saitek version of [headprogrammingczar](https://github.com/headprogrammingczar): [headprogrammingczar/mahon-mfd](https://github.com/headprogrammingczar/mahon-mfd)
+A easy-to-use python3 package to utilize the MFD on the Throttle of the Logitech X52 Pro, based on an older Saitek version of [headprogrammingczar](https://github.com/headprogrammingczar): [headprogrammingczar/mahon-mfd](https://github.com/headprogrammingczar/mahon-mfd)
 
 ## Usage:
 
@@ -43,7 +43,7 @@ class TestListMfd(X52ProScrollableMfd):
 
 
 if __name__ == '__main__':
-	doObj = TestListMfd()
+	TestListMfd()
 	print("press <enter> to exit")
 	input()
 ```
@@ -110,7 +110,7 @@ class TestPageMfd(X52ProPageableMfd):
 
         
 if __name__ == '__main__':
-	doObj = TestPageMfd()
+	TestPageMfd()
 	print("press <enter> to exit")
 	input()
 ```

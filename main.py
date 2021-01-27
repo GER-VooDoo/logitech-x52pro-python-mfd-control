@@ -70,6 +70,7 @@ class TestListMfd(X52ProScrollableMfd):
 		entries.append("Entry 6")
 		return entries
 
+
 if __name__ == '__main__':
 	logging.root.setLevel(logging.DEBUG)
 	#TestPageMfd()
